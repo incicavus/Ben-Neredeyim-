@@ -12,6 +12,7 @@
 		72656A1522304C7900DDDA09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72656A1322304C7900DDDA09 /* Main.storyboard */; };
 		72656A1722304C7C00DDDA09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72656A1622304C7C00DDDA09 /* Assets.xcassets */; };
 		72656A1A22304C7C00DDDA09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72656A1822304C7C00DDDA09 /* LaunchScreen.storyboard */; };
+		72656A2222304F2000DDDA09 /* soru isareti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72656A2122304F2000DDDA09 /* soru isareti.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		72656A1622304C7C00DDDA09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72656A1922304C7C00DDDA09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72656A1B22304C7C00DDDA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72656A2122304F2000DDDA09 /* soru isareti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "soru isareti.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		72656A0E22304C7900DDDA09 /* Ben Neredeyim? */ = {
 			isa = PBXGroup;
 			children = (
+				72656A2322304F2D00DDDA09 /* images */,
 				72656A0F22304C7900DDDA09 /* AppDelegate.swift */,
 				72656A1122304C7900DDDA09 /* ViewController.swift */,
 				72656A1322304C7900DDDA09 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				72656A1B22304C7C00DDDA09 /* Info.plist */,
 			);
 			path = "Ben Neredeyim?";
+			sourceTree = "<group>";
+		};
+		72656A2322304F2D00DDDA09 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				72656A2122304F2000DDDA09 /* soru isareti.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72656A1A22304C7C00DDDA09 /* LaunchScreen.storyboard in Resources */,
+				72656A2222304F2000DDDA09 /* soru isareti.jpg in Resources */,
 				72656A1722304C7C00DDDA09 /* Assets.xcassets in Resources */,
 				72656A1522304C7900DDDA09 /* Main.storyboard in Resources */,
 			);
